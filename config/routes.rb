@@ -5,6 +5,7 @@ RedditOnRails::Application.routes.draw do
 
   resources :pages
   resources :links
+  resources :comments
   
   root :to => 'pages#index'
 
